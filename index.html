@@ -2,6 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Orbitron|Libre+Baskerville" rel="stylesheet">
     <title></title>
@@ -13,23 +16,99 @@
       </div>
       <div id="main">
         <div id="about">
-          <div id="info">
-          <img src="danni.jpg">
-          <p>Hello my name is Danuporn Thongchai. <span>A Wannabe Programmer</span></p>
-          <p>I'm graduated in Computer Science at Chulalongkorn University</p>
-          <p>Currently, I keep learning to program mainly focus on Web Development <br>from every resources I can find over Internet. I beleive if I continue learning <br>I can be expert someday. </p>
-          <p>I love to play and watching football.<br>I looking to learn new things and try to develop myself to be a better version everyday. </p>
+          <div id="info" class="row">
+                 <div class="col-md-2">
+                     <img class="focus" src="danni.jpg">
+                 </div>
+                 <div class="col-md-10">
+                  <p>Hello my name is Danuporn Thongchai. <span>A Wannabe Programmer</span></p>
+                  <p>I'm graduated in Computer Science at Chulalongkorn University</p>
+                  <p>Currently, I keep learning to program mainly focus on Web Development <br>from every resources I can find over Internet. I beleive if I continue learning <br>I can be expert someday. </p>
+                  <p>I love to play and watching football.<br>I looking to learn new things and try to develop myself to be a better version everyday. </p>
+                 </div>
+          </div>
         </div>
-          <br>
+        <div id="skillDiv" class="container">
+          <h2 id="skill-header">Skills</h2>
+          <div class="row skillrow">
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="thumbpic">
+                        <img src="./pics/HTML5_logo.png" />
+                    </div>
+                    <div>
+                        <h3>HTML</h3>
+                    </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="thumbpic">
+                        <img src="./pics/css3.png" />
+                    </div>
+                    <div>
+                        <h3>CSS</h3>
+                    </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="thumbpic">
+                        <img src="./pics/javascript.png" />
+                    </div>
+                    <div>
+                        <h3>Javascript</h3>
+                    </div>
+              </div>
+          </div>
+          <div class="row skillrow">
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="thumbpic">
+                        <img src="./pics/nodejs.png" />
+                    </div>
+                    <div>
+                        <h3>NodeJS - Server side</h3>
+                    </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="thumbpic">
+                        <img src="./pics/mongodb.png" />
+                    </div>
+                    <div>
+                        <h3>MongoDB - NOSQL Database</h3>
+                    </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="thumbpic">
+                        <img src="./pics/react.png" />
+                    </div>
+                    <div>
+                        <h3>ReactJS - Library for front-end</h3>
+                    </div>
+              </div>
+          </div>
+          <div class="row skillrow">
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="thumbpic">
+                        <img src="./pics/angular.png" />
+                    </div>
+                    <div>
+                        <h3>Angular 4 - MVW framework</h3>
+                    </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="thumbpic">
+                        <img src="./pics/meteor.png" />
+                    </div>
+                    <div>
+                        <h3>MeteorJS - Full Stack Web App Framework</h3>
+                    </div>
+              </div>
+              <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="thumbpic">
+                        <img src="./pics/bootstrap.png" />
+                    </div>
+                    <div>
+                        <h3>Bootstrap - Library for styling</h3>
+                    </div>
+              </div>
+          </div>
 
-          <h3 id="skill">Skills</h3>
-          <ul>
-            <li class="skill-li">HTML, CSS</li>
-            <li class="skill-li">Javascript / JQUERY</li>
-            <li class="skill-li">ReactJS / Redux / Angular2JS</li>
-            <li class="skill-li">NodeJS</li>
-            <li class="skill-li">MeteorJS - fullstack framework for building web app</li>
-          </ul>
         </div>
         <div id="proj">
         <h2 class="boldText">My Projects</h2>
@@ -37,7 +116,7 @@
             <li><a href="https://tingdan.github.io/catclicker/">Cat Clicker&nbsp;&nbsp;(Use: JS/JQuery)</a></li>
             <li><a href="https://tingdan.github.io/footballquiz/">Football Quiz &nbsp;&nbsp;(Use: JS/JQuery)</a></li>
             <li><a href="https://tingdan.github.io/calculator/">Calculator&nbsp;&nbsp;(Use: JS/JQuery)</a></li>
-            
+
 
           </ul>
         </div>
@@ -45,5 +124,7 @@
       <div id="footer">
       </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>

@@ -23,25 +23,47 @@ padding-top: 10px;
 padding-left: 20px;
 padding-right: 20px;
 padding-bottom: 10px;
-  height: 490px;
+  height: auto;
   color: white;
-  background-image: url('http://kingofwallpapers.com/dark-wallpaper/dark-wallpaper-017.jpg');
+  background-image:url('./pics/night.jpg');
 
 
 }
 
 #about p{
     margin-top: 0;
-
+    font-size: 15px;
 
 }
 
+#skillDiv {
+
+    text-align: center;
+    height: auto;
+    width: 100%;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+#skillDiv img {
+
+}
+
+
+.skillrow {
+
+    margin-bottom: 15px;
+}
+
 img {
-    width: 220px;
-    height: 220px;
+    width: 160px;
+    height: 150px;
     float: left;
     padding-left: 0;
     margin-right: 30px;
+
 }
 
 #proj {
@@ -76,6 +98,13 @@ a:hover {
   color: black;
 }
 
+#skill-header {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:20px;
+}
+
 #skill{
   color: white;
   padding-top: 0;
@@ -103,4 +132,34 @@ span {
   padding-left: 0;
   margin-bottom: 5px;
   padding-right: 20px;
+}
+
+.thumbpic {
+    display: inline-block;
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.thumbpic:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.focus {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.focus:hover {
+  border: 70px solid #000;
+  border-radius: 50%;
 }
